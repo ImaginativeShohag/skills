@@ -1,0 +1,34 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "bash \"$HOME/.claude/hooks/confetti.sh\"" }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "bash \"$HOME/.claude/hooks/confetti.sh\"" }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|fork",
+        "hooks": [
+          { "type": "command", "command": "bash \"$HOME/.claude/hooks/confetti.sh\"" }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "manual",
+        "hooks": [
+          { "type": "command", "command": "bash \"$HOME/.claude/hooks/confetti.sh\"" }
+        ]
+      }
+    ]
+  }
+}

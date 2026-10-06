@@ -1,0 +1,47 @@
+# Editors and IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.history/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Linux
+.directory
+.Trash-*/
+.nfs*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Private configuration, credentials, and runtime output
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.success-week
+node_modules/
+.local/
+__pycache__/
+*.py[cod]
