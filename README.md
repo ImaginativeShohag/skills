@@ -10,6 +10,7 @@ Portable custom skills for coding agents, packaged for the [Skills CLI](https://
 | --- | --- |
 | [weekly-skills-maintenance-report](skills/weekly-skills-maintenance-report/SKILL.md) | Create a weekly, read-only schedule that reports results from an existing host maintenance job. |
 | [raycast-confetti-hook](skills/raycast-confetti-hook/SKILL.md) | Check Raycast prerequisites and set up confetti hooks for Claude Code on macOS. |
+| [Raycast Codex Proofread](skills/raycast-codex-proofread/SKILL.md) | Reuse a bundled Raycast/Codex extension to proofread selected text and correct spelling and grammar with Double Shift. |
 
 ## Install
 
