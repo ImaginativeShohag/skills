@@ -1,5 +1,6 @@
 ---
 name: weekly-skills-maintenance-report
+disable-model-invocation: true
 description: Create or recreate a weekly read-only maintenance report schedule on another device, or run that report, using logs and a success marker from an existing host job that updates skills and Android tooling.
 ---
 

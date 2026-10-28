@@ -1,5 +1,6 @@
 ---
 name: claude-personal-launcher
+disable-model-invocation: true
 description: Create a separate Claude Personal launcher on macOS with dedicated configuration and user-data directories and a purple icon, using the installed Claude desktop app.
 ---
 

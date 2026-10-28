@@ -4,6 +4,8 @@
 
 Portable custom skills for coding agents, packaged for the [Skills CLI](https://github.com/vercel-labs/skills) and [skills.sh](https://skills.sh/).
 
+See [Tools](TOOLS.md) for tools agents can use to complete tasks more easily.
+
 ## Skills
 
 | Skill | Purpose |
@@ -14,6 +16,8 @@ Portable custom skills for coding agents, packaged for the [Skills CLI](https://
 | [claude-personal-launcher](skills/claude-personal-launcher/SKILL.md) | Create a macOS Claude Personal launcher with dedicated configuration and user data and a purple icon. |
 
 ## Install
+
+All current skills require explicit invocation. Each `SKILL.md` sets `disable-model-invocation: true` for Claude Code; each `agents/openai.yaml` sets `policy.allow_implicit_invocation: false` for Codex. Invoke a skill with `/skill-name` in Claude Code or `$skill-name` in Codex.
 
 From this repository's root, preview available skills without installing:
 

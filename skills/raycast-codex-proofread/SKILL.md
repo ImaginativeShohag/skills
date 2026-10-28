@@ -1,5 +1,6 @@
 ---
 name: raycast-codex-proofread
+disable-model-invocation: true
 description: Set up or troubleshoot Double Shift proofreading, spelling, and grammar correction for selected text on macOS using the bundled Raycast extension and Codex CLI.
 ---
 

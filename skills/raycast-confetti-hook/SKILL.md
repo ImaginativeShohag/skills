@@ -1,5 +1,6 @@
 ---
 name: raycast-confetti-hook
+disable-model-invocation: true
 description: Set up, verify, troubleshoot, or remove Raycast confetti hooks for Claude Code on macOS, firing once after a submitted prompt receives a response and staying quiet on clear, manual compaction, or resume.
 ---
 
